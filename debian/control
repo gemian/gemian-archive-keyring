@@ -1,0 +1,17 @@
+Source: gemian-archive-keyring
+Priority: important
+Section: misc
+Maintainer: Adam Boardman <adamboardman@gmail.com>
+Build-Depends: debhelper (>= 10), jetring, gnupg
+Rules-Requires-Root: no
+Standards-Version: 4.1.2
+Vcs-Browser: https://github.com/gemian/gemian-archive-keyring
+Vcs-Git: https://github.com/gemian/gemian-archive-keyring.git
+
+Package: gemian-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: GnuPG archive keys of the Gemian archive
+ The Gemian project digitally signs its Release files. This package
+ contains the archive keys used for that.
