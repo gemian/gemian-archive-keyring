@@ -4,9 +4,8 @@ README for the gemian-archive-keyring package
 Introduction
 ------------
 
-The Debian project signs its Release files that are stored on the
-Debian ftp-server and its mirrors with the keys contained in this
-packages.
+The Gemian project signs its Release files that are stored on the Gemian 
+server with the keys contained in this packages.
 
 A quick overview about this package:
 
